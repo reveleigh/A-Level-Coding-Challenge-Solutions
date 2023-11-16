@@ -1,3 +1,3 @@
 # A Level Coding Challenge Solutions
 
-Possible solutions to the OCR's Coding Challenges for GCSE and A Level
+Possible solutions to OCR's Coding Challenges for GCSE and A Level
