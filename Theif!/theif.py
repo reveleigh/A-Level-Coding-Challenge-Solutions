@@ -1,7 +1,7 @@
 def generate_pin_combinations(digits):
     combinations = []
 
-    # Use nested loops to iterate through all possible combinations
+    # Use nested loops to iterate through all of the possible combinations
     for digit1 in digits:
         for digit2 in digits:
             for digit3 in digits:
