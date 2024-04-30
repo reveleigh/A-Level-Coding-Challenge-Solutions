@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+#gameOver {
+    display: none;
+}
+
+#slotMachine {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px; /* Adjusted width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px;
+}
+
+#balance {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

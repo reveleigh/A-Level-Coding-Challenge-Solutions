@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fruit Machine</h1>
+        <div id="gameOver">
+            <p id="message"></p>
+            <button id="playAgain">Play again</button>
+        </div>
+        <div id ="play">
+            <div id="slotMachine">
+                <img id="slot1" src="cherry.png" alt="Cherry">
+                <img id="slot2" src="bell.png" alt="Bell">
+                <img id="slot3" src="lemon.png" alt="Lemon">
+            </div>
+            <p id="balance">Balance: £1.00</p>
+            
+            <button id="spinButton" onclick="spin()">Spin</button>
+            <button id="quitButton" onclick="quit()">Quit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
