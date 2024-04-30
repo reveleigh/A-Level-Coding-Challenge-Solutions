@@ -11,6 +11,7 @@ def is_valid_number_plate(plate):
         return True
     return False
 
+#Function to check plate
 def check_number_plate(plate):
     # Check and print whether the given number plate is valid.
     if is_valid_number_plate(plate):
