@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <label for="conversionType">Choose Conversion:</label>
+  <select id="conversionType">
+    <option value="gramToKg">Gram to Kilogram</option>
+    <option value="kgToGram">Kilogram to Gram</option>
+    <option value="usdToEuro">USD to Euro</option>
+    <option value="euroToUsd">Euro to USD</option>
+    <option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+    <option value="fahrenheitToCelsius">Fahrenheit to Celsius</option>
+    <option value="literToGallon">Liter to Gallon</option>
+    <option value="gallonToLiter">Gallon to Liter</option>
+    <option value="usdToGbp">USD to GBP</option>
+    <option value="gbpToUsd">GBP to USD</option>
+  </select>
+
+  <label for="value">Value:</label>
+  <input type="number" id="value" min="0">
+
+  <button onclick="convert()">Convert</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

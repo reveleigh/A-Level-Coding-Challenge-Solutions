@@ -1,6 +1,8 @@
 ## TO FIX ##
 # Buttons flicker
 
+#NB this is a PyGame implementation of the Fruit Machine challenge
+
 import pygame
 import random
 import sys
