@@ -40,21 +40,21 @@ FPS    = 60     # Frames per second — keeps CPU usage sensible
 # --- Colour palette: clean scientific / lab aesthetic ---------------------------
 # Each colour is an (R, G, B) tuple; values range from 0 to 255
 
-COL_BG          = (245, 243, 237)   # Off-white / cream  — main background
-COL_PANEL_L     = (228, 226, 218)   # Slightly darker cream — left panel bg
-COL_PANEL_R     = (255, 254, 250)   # Near-white — right panel bg
-COL_ACCENT      = ( 70, 100, 140)   # Slate blue — primary accent (buttons, borders)
-COL_ACCENT_LT   = (120, 160, 200)   # Lighter slate blue — hover / border highlight
-COL_TEAL        = ( 60, 140, 130)   # Muted teal — selected-button highlight
-COL_TEAL_LT     = ( 90, 180, 165)   # Lighter teal — selected button top gradient feel
-COL_INK         = ( 30,  30,  40)   # Dark ink — primary text colour
-COL_INK_LIGHT   = ( 90,  90, 110)   # Dimmer ink — secondary labels
-COL_INPUT_BG    = (255, 255, 252)   # Almost pure white — input box background
-COL_INPUT_FOCUS = (235, 245, 255)   # Pale blue tint when input box is focused
-COL_RESULT_BG   = (230, 245, 240)   # Very light teal tint — result box background
-COL_BTN_CONV    = ( 60, 140, 130)   # Convert button face (teal)
-COL_BTN_HOVER   = ( 40, 110, 100)   # Convert button when mouse hovers over it
-COL_ERROR       = (180,  50,  50)   # Red — shown when input is not a valid number
+COL_BG          = (248, 246, 240)   # Warm white — main background
+COL_PANEL_L     = (235, 230, 218)   # Warm light tan — left panel bg
+COL_PANEL_R     = (255, 254, 250)   # Clean white — right panel bg
+COL_ACCENT      = ( 70,  95,  70)   # Sage green — primary accent (buttons, borders)
+COL_ACCENT_LT   = (110, 140, 110)   # Lighter sage — hover / border highlight
+COL_TEAL        = ( 90, 115,  75)   # Moss green — selected-button highlight
+COL_TEAL_LT     = (120, 150, 100)   # Lighter moss — selected button feel
+COL_INK         = ( 28,  25,  20)   # Rich dark charcoal — primary text colour
+COL_INK_LIGHT   = ( 95,  88,  78)   # Warm mid-brown — secondary labels
+COL_INPUT_BG    = (255, 253, 248)   # Warm white — input box background
+COL_INPUT_FOCUS = (245, 248, 238)   # Pale sage tint when input box is focused
+COL_RESULT_BG   = (240, 245, 232)   # Very light sage tint — result box background
+COL_BTN_CONV    = ( 90, 115,  75)   # Convert button face (moss green)
+COL_BTN_HOVER   = ( 65,  90,  52)   # Convert button when mouse hovers over it
+COL_ERROR       = (165,  45,  35)   # Deep brick red — shown when input is not valid
 COL_WHITE       = (255, 255, 255)   # Pure white — used for button text
 
 # --- Layout constants -----------------------------------------------------------

@@ -77,14 +77,14 @@ WINDOW_HEIGHT = 400     # How tall the window is in pixels
 FPS           = 60      # Frames per second – how often we redraw the screen
 
 # --- Colours (Pygame uses RGB tuples: Red, Green, Blue  0-255) ---
-COLOUR_BG         = (20,  20,  40)   # Dark navy background
-COLOUR_TITLE      = (180, 140, 255)  # Soft purple for the title
-COLOUR_LABEL      = (200, 200, 220)  # Light grey for labels
-COLOUR_BOX_NORMAL = (50,  50,  80)   # Input box colour (inactive)
-COLOUR_BOX_ACTIVE = (80,  80, 140)   # Input box colour (when the user is typing)
-COLOUR_BOX_BORDER = (120, 100, 200)  # Border of the input box
-COLOUR_RESULT     = (100, 255, 180)  # Bright green for the answer
-COLOUR_ERROR      = (255, 100, 100)  # Red for error messages
+COLOUR_BG         = (245, 243, 238)  # Warm off-white background
+COLOUR_TITLE      = ( 50,  80, 100)  # Dark slate blue for the title
+COLOUR_LABEL      = ( 90, 100, 110)  # Mid-grey for labels
+COLOUR_BOX_NORMAL = (225, 222, 215)  # Input box colour (inactive)
+COLOUR_BOX_ACTIVE = (255, 255, 252)  # Input box colour (when the user is typing)
+COLOUR_BOX_BORDER = ( 80, 120, 150)  # Border of the input box
+COLOUR_RESULT     = ( 30, 120,  80)  # Forest green for the answer
+COLOUR_ERROR      = (180,  50,  40)  # Deep red for error messages
 COLOUR_WHITE      = (255, 255, 255)
 
 # --- Step 3: Create the window ---
@@ -260,7 +260,7 @@ while running:
         screen.blit(error_surf, (error_x, 320))
 
     # --- Footer hint ---
-    hint_surf = font_label.render("Backspace to clear  |  Enter to calculate", True, (80, 80, 110))
+    hint_surf = font_label.render("Backspace to clear  |  Enter to calculate", True, (150, 155, 160))
     hint_x = (WINDOW_WIDTH - hint_surf.get_width()) // 2
     screen.blit(hint_surf, (hint_x, 370))
 

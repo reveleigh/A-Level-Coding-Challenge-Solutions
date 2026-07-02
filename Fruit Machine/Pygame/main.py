@@ -26,26 +26,26 @@ WINDOW_WIDTH  = 700    # Width of the game window in pixels
 WINDOW_HEIGHT = 600    # Height of the game window in pixels
 FPS           = 60     # Frames per second — how often the screen is redrawn
 
-# --- Vegas Neon Colour Palette (R, G, B tuples, each value 0-255) ---
-COLOUR_BG           = (18,  10,  50)   # Deep navy/purple background
-COLOUR_PANEL        = (30,  18,  75)   # Slightly lighter panel behind reels
-COLOUR_REEL_BG      = (255, 245, 200)  # Warm cream background for each reel box
-COLOUR_REEL_OUTLINE = (255, 200,  50)  # Bright gold outline around reel boxes
-COLOUR_GOLD         = (255, 215,   0)  # Pure gold — used for headings & credit
-COLOUR_GOLD_DARK    = (200, 160,   0)  # Darker gold for shadows / disabled text
+# --- British Seaside Arcade Colour Palette (R, G, B tuples, each value 0-255) ---
+COLOUR_BG           = (245, 240, 228)  # Warm ivory background
+COLOUR_PANEL        = (228, 220, 200)  # Slightly darker cream panel behind reels
+COLOUR_REEL_BG      = (255, 252, 242)  # Bright warm white for each reel box
+COLOUR_REEL_OUTLINE = (180, 130,  50)  # Warm antique gold outline around reel boxes
+COLOUR_GOLD         = (160, 110,  30)  # Antique gold — headings & credit
+COLOUR_GOLD_DARK    = (120,  85,  20)  # Darker gold for shadows / disabled text
 COLOUR_WHITE        = (255, 255, 255)  # Pure white
 COLOUR_BLACK        = (  0,   0,   0)  # Pure black
-COLOUR_TEXT_DARK    = ( 40,  10,  80)  # Very dark purple — text on light surfaces
-COLOUR_RESULT_WIN   = ( 50, 255, 120)  # Bright green — winning result messages
-COLOUR_RESULT_LOSS  = (255,  80,  80)  # Bright red — losing result messages
-COLOUR_RESULT_NEUT  = (200, 200, 255)  # Pale lavender — neutral result messages
+COLOUR_TEXT_DARK    = ( 30,  25,  20)  # Rich dark charcoal — text on light surfaces
+COLOUR_RESULT_WIN   = ( 30, 110,  55)  # Forest green — winning result messages
+COLOUR_RESULT_LOSS  = (170,  40,  30)  # Deep red — losing result messages
+COLOUR_RESULT_NEUT  = ( 80,  90, 100)  # Slate grey — neutral result messages
 
 # --- Button colours ---
-COLOUR_SPIN_ACTIVE  = (220,  50, 220)  # Vivid magenta — spin button when enabled
-COLOUR_SPIN_HOVER   = (255, 100, 255)  # Lighter magenta — when mouse is over it
-COLOUR_SPIN_DISABLED= ( 80,  50,  90)  # Dull purple — spin button when disabled
-COLOUR_QUIT_ACTIVE  = ( 50, 150, 255)  # Bright blue — quit button
-COLOUR_QUIT_HOVER   = (100, 190, 255)  # Lighter blue — quit button hover
+COLOUR_SPIN_ACTIVE  = ( 40, 110,  60)  # Forest green — spin button when enabled
+COLOUR_SPIN_HOVER   = ( 55, 140,  80)  # Lighter green — when mouse is over it
+COLOUR_SPIN_DISABLED= (180, 175, 165)  # Muted grey — spin button when disabled
+COLOUR_QUIT_ACTIVE  = (140,  45,  35)  # Deep red — quit button
+COLOUR_QUIT_HOVER   = (170,  60,  45)  # Lighter red — quit button hover
 COLOUR_BTN_TEXT     = (255, 255, 255)  # White text on buttons
 
 # --- Fruit machine game logic constants ---
@@ -301,7 +301,7 @@ def draw_background(surface):
 
     # Draw subtle horizontal grid lines for a retro Vegas feel
     for y in range(0, WINDOW_HEIGHT, 60):          # Every 60 pixels vertically
-        pygame.draw.line(surface, (40, 25, 90),    # Very dark purple lines
+        pygame.draw.line(surface, (220, 215, 200), # Subtle warm grey lines
                          (0, y), (WINDOW_WIDTH, y), 1)
 
 
@@ -411,7 +411,7 @@ def draw_game_over_screen(surface, machine, font_large, font_medium, font_small)
     """
     # Semi-transparent dark overlay covering the whole window
     overlay = pygame.Surface((WINDOW_WIDTH, WINDOW_HEIGHT), pygame.SRCALPHA)
-    overlay.fill((10, 5, 30, 210))    # RGBA — last value is alpha (0=clear, 255=solid)
+    overlay.fill((30, 20, 10, 210))   # RGBA — last value is alpha (0=clear, 255=solid)
     surface.blit(overlay, (0, 0))
 
     # Central panel

@@ -82,19 +82,19 @@ WINDOW_HEIGHT = 520
 FPS           = 60
 
 # --- Parchment / organic colour palette ---
-# Think aged paper, sepia ink, warm earth tones.
-COLOUR_BG          = (210, 195, 165)   # Warm parchment
-COLOUR_PANEL       = (228, 215, 185)   # Lighter panel / card area
-COLOUR_INK         = ( 55,  40,  20)   # Dark sepia ink (main text)
-COLOUR_INK_LIGHT   = ( 95,  75,  45)   # Lighter ink (labels, hints)
-COLOUR_BORDER      = (150, 120,  70)   # Aged brown border
-COLOUR_BOX_IDLE    = (240, 230, 205)   # Input box background (idle)
-COLOUR_BOX_ACTIVE  = (248, 240, 220)   # Input box background (focused)
-COLOUR_ACCENT      = (140,  80,  30)   # Rust-orange accent (titles, results)
-COLOUR_SCROLL_BG   = (195, 180, 150)   # Scroll list background
-COLOUR_SCROLL_ROW  = (205, 190, 160)   # Alternating row tint
-COLOUR_ERROR       = (160,  50,  30)   # Deep red for errors
-COLOUR_SCROLLBAR   = (160, 130,  80)   # Scrollbar track colour
+# Think fresh notebook paper, ink, warm natural tones.
+COLOUR_BG          = (248, 244, 234)   # Pale cream page background
+COLOUR_PANEL       = (238, 233, 220)   # Slightly darker cream for panels
+COLOUR_INK         = ( 35,  28,  18)   # Rich dark brown ink (main text)
+COLOUR_INK_LIGHT   = ( 90,  75,  55)   # Warm mid-brown (labels, hints)
+COLOUR_BORDER      = (160, 130,  85)   # Warm tan border
+COLOUR_BOX_IDLE    = (252, 248, 238)   # Input box background (idle)
+COLOUR_BOX_ACTIVE  = (255, 252, 244)   # Input box background (focused)
+COLOUR_ACCENT      = (130,  70,  20)   # Warm chestnut accent (titles, results)
+COLOUR_SCROLL_BG   = (228, 220, 200)   # Scroll list background
+COLOUR_SCROLL_ROW  = (238, 230, 212)   # Alternating row tint
+COLOUR_ERROR       = (160,  45,  30)   # Deep brick red for errors
+COLOUR_SCROLLBAR   = (170, 140,  90)   # Scrollbar thumb colour
 
 # ============================================================
 #  WINDOW & CLOCK

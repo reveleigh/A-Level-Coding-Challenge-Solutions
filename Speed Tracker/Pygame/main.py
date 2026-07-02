@@ -27,25 +27,25 @@ import sys      # used for sys.exit() to close the window cleanly
 # CONSTANTS — colours, dimensions, fonts sizes, game rules
 # =============================================================================
 
-# --- Motorway / road-sign colour palette ---
-C_BG           = (18,  38,  46)   # very dark teal — main background
-C_PANEL        = (26,  54,  64)   # slightly lighter panel background
-C_BORDER       = (52, 100, 112)   # muted teal border for boxes
-C_BORDER_FOCUS = (255, 210,   0)  # highway yellow — active input field
-C_TEXT         = (230, 240, 245)  # near-white general text
-C_LABEL        = (160, 200, 210)  # pale teal for field labels
-C_HEADING      = (255, 210,   0)  # bright yellow — section headings
-C_BTN_IDLE     = ( 34,  85,  85)  # dark green-teal button normal state
-C_BTN_HOVER    = ( 46, 120, 120)  # lighter teal button hover state
+# --- Light road-authority colour palette ---
+C_BG           = (245, 245, 242)  # warm off-white — main background
+C_PANEL        = (232, 230, 225)  # light warm grey panel background
+C_BORDER       = (160, 160, 155)  # mid-grey border for boxes
+C_BORDER_FOCUS = ( 50, 100, 160)  # slate blue — active input field
+C_TEXT         = ( 30,  30,  28)  # dark charcoal — main text
+C_LABEL        = ( 80,  85,  90)  # medium grey for field labels
+C_HEADING      = ( 40,  70, 100)  # dark slate blue — section headings
+C_BTN_IDLE     = ( 45, 100,  65)  # forest green button normal state
+C_BTN_HOVER    = ( 60, 130,  85)  # lighter green button hover state
 C_BTN_TEXT     = (255, 255, 255)  # white text on button
-C_SAFE         = ( 60, 200, 100)  # motorway green — not speeding
-C_WARN         = (255, 160,  30)  # amber — borderline / warning
-C_DANGER       = (220,  50,  50)  # red — speeding
-C_LOG_ROW_A    = ( 22,  46,  56)  # alternating log row colour A
-C_LOG_ROW_B    = ( 28,  58,  70)  # alternating log row colour B
-C_DIVIDER      = ( 52,  90, 100)  # thin horizontal rule colour
-C_SCROLL_TRACK = ( 36,  66,  78)  # scrollbar track
-C_SCROLL_THUMB = ( 80, 140, 160)  # scrollbar thumb
+C_SAFE         = ( 30, 110,  55)  # forest green — not speeding
+C_WARN         = (180, 110,  20)  # amber-brown — borderline / warning
+C_DANGER       = (165,  35,  30)  # deep red — speeding
+C_LOG_ROW_A    = (240, 238, 233)  # alternating log row colour A
+C_LOG_ROW_B    = (248, 246, 242)  # alternating log row colour B
+C_DIVIDER      = (200, 198, 192)  # thin horizontal rule colour
+C_SCROLL_TRACK = (210, 208, 202)  # scrollbar track
+C_SCROLL_THUMB = (130, 128, 120)  # scrollbar thumb
 
 # --- Layout dimensions (all in pixels) ---
 WINDOW_W       = 820    # total window width
